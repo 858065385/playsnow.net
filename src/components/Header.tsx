@@ -159,6 +159,13 @@ export function Header({ locale, messages }: HeaderProps) {
               </Link>
             
               <Link
+                href={`/${locale}/anime-crusaders-codes`}
+                className={isActive(`/${locale}/anime-crusaders-codes`) ? "active-link" : ""}
+              >
+                Anime Crusaders Codes
+              </Link>
+            
+              <Link
                 href={`/${locale}/about`}
                 className={isActive(`/${locale}/about`) ? "active-link" : ""}
               >
@@ -199,6 +206,13 @@ export function Header({ locale, messages }: HeaderProps) {
             className={isActive(`/${locale}`) ? "active-link" : ""}
           >
             <i className="fas fa-home"></i> {t('navigation.home', 'Home')}
+          </Link>
+          <Link
+            href={`/${locale}/anime-crusaders-codes`}
+            onClick={closeSideMenu}
+            className={isActive(`/${locale}/anime-crusaders-codes`) ? "active-link" : ""}
+          >
+            <i className="fas fa-gift"></i> Anime Crusaders Codes
           </Link>
           <Link
             href={`/${locale}/games`}
