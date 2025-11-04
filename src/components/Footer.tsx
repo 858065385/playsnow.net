@@ -21,14 +21,17 @@ export function Footer({ locale, messages }: FooterProps) {
   
   return (
     <footer className=" py-8 mt-auto border-t-[#333] border-t-1">
-      <div className="container mx-auto px-4 flex   items-center justify-center" >
-                <Link href={`/${locale}/privacy`} className="text-gray-600 hover:underline">
-                  {t('footer.privacy', 'Privacy Policy')}
-                </Link>
-                <Link href={`/${locale}/about`} className="text-gray-600 ml-[10px] hover:underline">
-                  {t('footer.about', 'About Us')}
-                </Link>
-                </div>
+      <div className="container mx-auto px-4 flex items-center justify-center space-x-4">
+        <Link href={`/${locale}/privacy`} className="text-gray-600 hover:underline">
+          {t('footer.privacy', 'Privacy Policy')}
+        </Link>
+        <Link href={`/${locale}/about`} className="text-gray-600 hover:underline">
+          {t('footer.about', 'About Us')}
+        </Link>
+        <Link href={`/${locale}/disclaimer`} className="text-gray-600 hover:underline">
+          {t('footer.disclaimer', 'Disclaimer')}
+        </Link>
+      </div>
       {/* <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 md:gap-16 mb-8">
           

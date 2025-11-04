@@ -19,8 +19,8 @@ export interface Game {
 }
 
 export interface Category {
-  title: string;
-  description: string;
+  title: string | LocalizedText;
+  description: string | LocalizedText;
   weight?: number;
   games: string[];
 }

@@ -13,20 +13,20 @@ export async function generateMetadata({
   // 直接在页面中定义元数据
   const metadata = {
     en: {
-      title: 'About Us - PlayNow',
-      description: 'Welcome to PlayNow, your ultimate destination for free online games!'
+      title: 'About PlayNow - PlayNow',
+      description: 'Discover how PlayNow curates lightweight, multi-language browser games for instant play. Updated November 4, 2025.'
     },
     zh: {
-      title: '关于我们 - PlayNow',
-      description: '欢迎来到 PlayNow，您免费在线游戏的终极目的地！'
+      title: '关于 PlayNow - PlayNow',
+      description: '了解 PlayNow 如何整理轻量多语言小游戏，帮助你随时开玩。最后更新于 2025 年 11 月 4 日。'
     },
     es: {
-      title: 'Sobre Nosotros - PlayNow',
-      description: '¡Bienvenido a PlayNow, tu destino definitivo para juegos en línea gratuitos!'
+      title: 'Acerca de PlayNow - PlayNow',
+      description: 'Descubre cómo PlayNow selecciona juegos ligeros y multilingües para jugar al instante. Actualizado el 4 de noviembre de 2025.'
     },
     fr: {
-      title: 'À Propos de Nous - PlayNow',
-      description: 'Bienvenue sur PlayNow, votre destination ultime pour les jeux en ligne gratuits !'
+      title: 'À propos de PlayNow - PlayNow',
+      description: 'Découvrez comment PlayNow sélectionne des jeux web légers et multilingues pour jouer instantanément. Mise à jour du 4 novembre 2025.'
     }
   }
   
